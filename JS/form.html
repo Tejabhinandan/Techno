@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css"/>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <form name="userform">
+      <div>
+        <input type="text" placeholder="Enter Username" name="username"/>
+        <p id="emptyUsername">Username is required</p>
+        <p id="invalidUsername">Username is invalid</p>
+      </div>
+      <br>
+      <div>
+        <input type="text" placeholder="Enter password" name="password" />
+        <p id="emptyPassword">Password is required</p>
+        <p id="invalidPassword">password is invalid</p>
+      </div>
+      <br>
+      <button id="login" >Login</button>
+    </form>
+    <script src="./form.js"></script>
+  </body>
+</html>

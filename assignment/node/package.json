@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Assignment1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teja",
+  "license": "ISC",
+  "dependencies": {
+    "stompjs": "^2.3.3"
+  }
+}

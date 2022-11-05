@@ -1,0 +1,22 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.text
+{
+    position:absolute;
+    top: 435px;
+    left: 40%;
+}
+.foot
+  {
+      text-align: center;
+    background-color: black;
+    border: 22px solid black;
+    display: block;
+  }
+  .t
+  {
+      position: relative;
+      top: 35px;
+  }

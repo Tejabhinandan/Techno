@@ -1,0 +1,67 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.reqp{
+    padding-top: 42px;
+    color: #086288;
+}
+.batchl{
+    display: flex;
+    background-color: white;
+}
+.searc{
+    height: 36px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 710px;
+}
+.batchnew{
+    margin: 5px;
+    margin-left:4px;
+    border-radius: 4px;
+    color: white !important;
+    background-color: #FAA81D !important;
+    border: none;
+    width: 90px;
+    height:36px;
+
+}
+.par{
+    padding: 5px;
+    color: #FAA81D;
+}
+.drop{
+    color: white;
+    background-color: #086288;
+    border-radius: 10px;
+    border: none;
+}
+
+.attendancebtn{
+    border-radius: 4px;
+    margin-left: 9px;
+    border: none;
+    color: #086288;
+}
+.attendancebtn:hover{
+    background-color: #086288;
+    color: white;
+    border-color: #00811A80;
+}
+#po1{
+    color: #01AD1C;
+}
+#po2{
+    color: #0564E1;
+}
+#po3{
+    color: #D48806;
+}
+#po4{
+    color: #DEB902;
+}
+#po5{
+    color: #EC3E66;
+}

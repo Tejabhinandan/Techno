@@ -1,0 +1,209 @@
+[{"primary":{"EmpolyeeId":"Tyss01Ranjith2022","EmpolyeeName":"Ranjith Reddy MA","DateOfJoining":"2022-03-01","DateOfBirth":"1998-06-23","EmailId":"ranjithreddy001@gmail.com","BloodGroup":"O+","Designation":"Front-End Developer","Gender":"Male","Nationality":"Indian","EmpolyeeStatus":"Working"},"secondary":{"PanNo":"AXFER450M","Aadharno":"963499846580","FathersName":"RANJITS fATHER","MotherName":"Mother","SpouseName":"-NA-","PassportNo":"-NA-","MaritalStatus":"Single"},"experience":{"CompanyName":"Techno Elevate","YearOfExperience":"3","DateOfJoining":"2020-01-01","DateOfRelieving":"2023-02-01","Designation":"Front-End Developer","Location":"BANGALORE"},"contact":{"ContactType":"Office","ContactNumber":"+91 81178332556"},"address":{"AddressType":"Permanent","DoorNumber":"Fl/12/65","Street":"Kormangal","Locality":"MG Road","City":"Other","State":"karnataka","pinCode":"769013","LandMark":"Near Bada Park."},"bank":{"AccountNumber":"02401023452345289","BankName":"ICICI","AccountType":"Savings","IfscCode":"ICICI346300200","Branch":"Bangalore","State":"karnataka"},"technical":{"SkillType":"FRONT-END","SkillRatings":"9","YEarOfExperience":"3"},"education":{"EducationType":"Bachelor","YearOfpassing":"2017","PerCenTage":"78","UnivercityName":"SPCA","InstituteName":"KSTICC","Specilization":"CIVIL","State":"Karnataka"}}]
+
+
+
+
+
+
+   
+//To Print Hello world
+console.log("Hello world");
+//To Add two numbers
+let first_number=10;
+let second_number=20;
+console.log("first_number + second_number :"+(first_number+second_number));
+//To Find the SqureRoot Of a number
+let number=25;
+console.log("squareroot of "+number+" is "+(Math.sqrt(number)));
+//To find the area of triangle
+let base=4;
+let height=2;
+let area=(height*base)/2;
+console.log("Area of triangle is :"+area);
+//To swap two variables
+let arr=[10,20];
+// for(let i=0;i<arr.length;i++);
+console.log(arr.reverse());
+//To Find the quadratic equation
+let a=2;
+let b=3;
+let c=4;
+let x=(-b+Math.sqrt((b*b)-(4*a*c)))/2*a;
+let x1=(-b-Math.sqrt((b*b)-(4*a*c)))/2*a;
+if(((a*(x*x))+b*x+c)==0 && ((a*(x1*x1))+b*x1+c)==0 )
+{
+    console.log("Quadratic Qeuation");
+}
+//To convert Kilmeters to miles
+let km=30;
+let miles=km*0.62137;
+console.log("kilometers :"+km+" = "+" miles : "+miles);
+//To convert Celcius to Farenhite
+let celcius=30;
+let farenhite=(celcius*9/5)+32;
+console.log("Degree in Celcius :"+celcius+" degree in farenhite is :"+farenhite);
+//Random number generator
+let random_number=(Math.floor(Math.random()*100+100));
+console.log(random_number);
+//Javascript Program to Check if a number is Positive, Negative, or Zero
+let number_test=21;
+if(number_test>0)
+{
+    console.log("Positive");
+}
+else if(number_test==0){
+    console.log("ZERO");
+}
+else {
+    console.log("Negative")
+}
+//Javascript Program to Check if a Number is Odd or Even
+let even_odd=52;
+if(even_odd%2==0)
+{
+    console.log("the number "+even_odd+" is even" )
+}
+else if(even_odd%2!=0 ){
+  console.log("the number "+even_odd+" is odd" )  
+}
+else{
+    console.log("the number is neither even nor odd please change the number");
+}
+//JavaScript Program to Find the Largest Among Three Numbers
+let number_one=130;
+let number_two=23;
+let number_three=10;
+if(number_one>number_two && number_one>number_three){
+ console.log("greatest number is :"+number_one);   
+}
+else if(number_two>number_one && number_two>number_three)
+{
+    console.log(number_two+" is the greatest number");
+}
+else{
+       console.log(number_three+" is the greatest number"); 
+}
+//JavaScript Program to Check Prime Number
+let prime_number=2;
+for(let i=1;i<prime_number/2;i++)
+{
+    if(prime_number%1==0 && prime_number%prime_number==0 && prime_number%i!==0 ){
+        console.log("PRIME")
+    }
+    else
+    {
+        console.log("NOT PRIME")
+    }
+}
+
+
+
+
+
+
+
+let a=()=>{
+let s="HELLO"
+let copy=[...s]
+console.log(copy);
+}
+a()//['H','E','L','L','O']
+
+
+let a=(...aa)=>{
+console.log(aa*aa)//
+}
+a(1,2,3,5,56,6);
+Json.pars()
+Json.Stringify()
+
+
+let A="Suhas"
+let
+
+
+
+
+
+
+
+
+
+---------------------call
+
+fucntion calling(a,b,c){
+return console.log(a+b+c);
+}
+call.calling(1,2,3)
+
+--------------------apply
+
+fucntion appling(a,b,c){
+return console.log(a+b+c);
+}
+apply.calling([1,2,3]);
+
+---------------------bind
+
+fucntion binding(a)
+{
+consoel.log(a);
+}
+const b=binding.bind(10);
+
+
+-----------------function curring--------------
+
+function calculateVolume(length) {
+        return function (breadth) {
+            return function (height) {
+                return length * breadth * height;
+            }
+        }
+    }
+    console.log(calculateVolume(4)(5)(6));
+
+box model
+	padding
+	border
+	margin
+flex
+	align items
+	justify content
+	flex direction
+
+object protoype
+
+get derived states from errors-it'll return fallback ui and will have the access of error, it will get executed if there is some error
+component did catch - it ill have the access to error and info about the error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

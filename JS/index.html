@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+
+
+
+    <script>
+        console.log("hello world")
+        var firstName="teja"
+        var lastName="nandan"
+        var age= 18
+        var isMarried=false
+        var wife=null
+        var kids
+        console.log("data type of firstName", typeof firstName)
+        console.log("data type of lastName", typeof lastName)
+        console.log("data type of age", typeof age)
+        console.log("data type of wife", typeof wife)
+        console.log("data type of kids", typeof kids)
+
+      console.log("1st name",firstName)
+      console.log("1st name",lastName)
+      console.log("1st name",age)
+      console.log("1st name",isMarried)
+
+    //   array
+    var fruits=["mango","apple","banana","lichi","kiwi"]
+    console.log(fruits)
+    console.log(Array.isArray(fruits))
+
+
+    // object
+
+    var person={
+        firstName:"Alia",
+        lastName: "Kumari",
+        age: 18,
+        isMarried:true,
+        fullName: function() {
+            return person.firstName+" "+ this.lastName;
+            
+        },
+    }
+        console.log("person 1stname ",person.firstName)
+        console.log("person lastname ",person.lastName)
+
+        console.log("fullname ",person.fullName());
+        console.log("type of person",typeof person)
+
+        // object using new keyword
+        var car= new Object()
+        car.name="bmw"
+        car.color="white"
+
+        console.log(car)
+    </script>
+  </body>
+</html>
